@@ -1,0 +1,194 @@
+/*Tags styles*/
+
+a {
+  color:  hsl(210, 10%, 33%);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration:none;
+  color: hsl(171, 66%, 44%);
+}
+
+Body {
+  background-image: url("images/bg-header-desktop.png");
+  font-family: "Bai Jamjuree", sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: hsl(210, 10%, 33%);
+  font-weight: bold;
+}
+
+p {
+  color:  hsl(201, 11%, 66%);
+  font-size: 1.125rem;
+}
+
+/*Class styles*/
+
+.container-fluid {
+  padding-bottom: 5%;
+  width: 80%;
+}
+
+.title-text {
+  margin: auto;
+  padding-bottom: 2%;
+  width: 50%;
+}
+
+.button-col {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.button-row {
+  margin: auto;
+  width: 60%;
+}
+
+.button-download {
+  border-radius: 25px;
+  border: none;
+  color: white;
+  margin: 10px;
+  padding: 10px 35px;
+}
+
+.button-download:hover {
+  color: white;
+}
+
+.button-ios {
+  background-color: hsl(171, 66%, 44%);
+  position: relative;
+  left: 40px;
+}
+
+.button-ios:hover {
+  background-color: hsl(171, 66%, 54%);
+}
+
+.button-mac {
+  background-color: hsl(233, 100%, 69%);
+  position: relative;
+  right: 40px;
+}
+
+.button-mac:hover {
+  background-color: hsl(233, 100%, 79%);
+}
+
+.feature-text {
+  margin: 10% 40% 5% 10%;
+  text-align: left;
+
+}
+
+.feature-image {
+  position: relative;
+  width: 100%;
+}
+
+.feature-row {
+width: 100%;
+padding-bottom: 5%;
+}
+
+.footer-icon {
+ margin: 10px;
+ font-size: 22px;
+ position: relative;
+ top: 30%;
+}
+
+.footer-col {
+  margin-bottom: 20px;
+}
+
+.footer-row {
+  text-align: left;
+}
+
+.footer-logo {
+ max-height: 60px;
+}
+
+.header-logo {
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+
+.logo-company {
+  position: relative;
+  object-position: 50% 50%;
+  padding: 5% 15%;
+}
+
+.credits {
+  margin: 40px 20px 0px;
+}
+
+/*ID Styles*/
+
+#footer {
+  background-color: hsl(220, 18%, 97%);
+  padding: 40px;
+}
+
+.#header {
+  background-image:
+  linear-gradient(
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 1)),
+  url('images/bg-header-desktop.png');
+  background-size: cover;
+}
+
+/*Responsive view - tablet and mobile*/
+
+@media (max-width: 992px) {
+  .button-ios{
+    position: static;
+  }
+
+  .button-mac{
+    position: static;
+  }
+}
+
+@media (max-width: 1400px) {
+
+  #header {
+    background-image:
+    url(
+      'images/bg-header-mobile.png');
+    background-size: cover;
+  }
+.container-fluid {
+  width: 95%;
+}
+
+.devices-img {
+  width: 85%;
+}
+
+  .title-text {
+    width: 100%;
+  }
+
+  .feature-text {
+    margin: 10%;
+    text-align: center;
+  }
+
+  .feature-image {
+    position: relative;
+    width: 85%;
+  }
+  .footer-row {
+    text-align: center;
+  }
+}
