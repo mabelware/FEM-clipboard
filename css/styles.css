@@ -154,6 +154,13 @@ padding-bottom: 5%;
 
 /*Responsive view - tablet and mobile*/
 
+@media (max-width: 700px) {
+    .header-background {
+    background-image: url("images/bg-header-mobile.png");
+    background-size: cover;
+  }
+}
+
 @media (max-width: 992px) {
   .button-ios{
     position: static;
@@ -165,11 +172,6 @@ padding-bottom: 5%;
 }
 
 @media (max-width: 1400px) {
-
-  .header-background {
-    background-image: url("images/bg-header-mobile.png");
-    background-size: cover;
-  }
 
 .container-fluid {
   width: 95%;
